@@ -1,0 +1,56 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container{
+    width: 50%;
+    text-align: center;
+    background-color: rgb(221, 231, 238);
+    padding: 10px;
+}
+.container .content{
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, .3);
+}
+.image img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+#name{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#job{
+    padding-top: 3px;
+    color: rgb(130, 179, 212);
+}
+#title{
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+.prev-btn,
+.next-btn{
+    background: transparent;
+    color: rgb(130, 179, 212);
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.random-btn{
+    margin: 5px 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(130, 179, 212);
+    color:rgb(130, 179, 212) ;
+    height: 30px;
+    cursor: pointer;
+}
